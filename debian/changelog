@@ -1,3 +1,9 @@
+brotli (1.0.5-2) unstable; urgency=medium
+
+  * depend on python3-all-dev (Closes: #903923)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Thu, 02 Aug 2018 15:35:52 +0800
+
 brotli (1.0.5-1) unstable; urgency=medium
 
   * New upstream version 1.0.5

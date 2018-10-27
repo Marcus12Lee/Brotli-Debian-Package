@@ -1,3 +1,9 @@
+brotli (1.0.7-1) unstable; urgency=medium
+
+  * New upstream version 1.0.7
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 27 Oct 2018 13:08:16 +0200
+
 brotli (1.0.6-1) unstable; urgency=medium
 
   * New upstream version 1.0.6

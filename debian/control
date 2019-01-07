@@ -4,7 +4,8 @@ Uploaders: Ondřej Surý <ondrej@debian.org>
 Section: python
 Priority: optional
 Build-Depends: cmake,
-               debhelper (>= 11),
+               debhelper (>= 12),
+               debhelper-compat (= 12),
                dh-python,
                python,
                python-dev,
@@ -12,7 +13,7 @@ Build-Depends: cmake,
                python3,
                python3-all-dev,
                python3-setuptools
-Standards-Version: 4.2.1
+Standards-Version: 4.3.0
 Vcs-Browser: https://salsa.debian.org/debian/brotli
 Vcs-Git: https://salsa.debian.org/debian/brotli.git
 Homepage: https://github.com/google/brotli

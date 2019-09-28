@@ -1,3 +1,13 @@
+brotli (1.0.7-3) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Support the nopython build profile. (Closes: #940619)
+
+  [ Tomasz Buchert ]
+  * Bump std-ver to 4.4.0 (no changes needed)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Sat, 28 Sep 2019 17:30:03 +0200
+
 brotli (1.0.7-2) unstable; urgency=medium
 
   * Refresh packaging (std-ver, compat=12)

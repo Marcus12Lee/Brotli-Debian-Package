@@ -6,6 +6,7 @@ include /usr/share/dpkg/default.mk
 
 export PYBUILD_NAME = brotli
 
+ifeq (,$(filter nopython,$(DEB_BUILD_PROFILES)))
 %:
 	dh $@ --buildsystem=pybuild --with=python2,python3
 
@@ -28,6 +29,10 @@ override_dh_auto_clean:
 override_dh_auto_test:
 	dh_auto_test
 	dh_auto_test --buildsystem=cmake
+else
+%:
+	dh $@ --buildsystem=cmake
+endif
 
 override_dh_install:
 	find debian/tmp -name '*.a' -print -delete

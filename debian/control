@@ -7,12 +7,14 @@ Build-Depends: cmake,
                debhelper (>= 12),
                debhelper-compat (= 12),
                dh-python <!nopython>,
-               python <!nopython>,
-               python-dev <!nopython>,
+               libpython-dev <!nopython>,
+               libpython3-all-dev <!nopython>,
+               python-dev:any <!nopython>,
                python-setuptools <!nopython>,
-               python3 <!nopython>,
-               python3-all-dev <!nopython>,
-               python3-setuptools <!nopython>
+               python3-all-dev:any <!nopython>,
+               python3-setuptools <!nopython>,
+               python3:any <!nopython>,
+               python:any <!nopython>
 Standards-Version: 4.4.0
 Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/debian/brotli

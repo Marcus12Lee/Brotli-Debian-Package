@@ -34,9 +34,5 @@ else
 	dh $@ --buildsystem=cmake
 endif
 
-override_dh_install:
-	find debian/tmp -name '*.a' -print -delete
-	dh_install
-
 override_dh_missing:
 	dh_missing --fail-missing

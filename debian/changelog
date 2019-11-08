@@ -1,3 +1,10 @@
+brotli (1.0.7-5) unstable; urgency=medium
+
+  * bump std-ver to 4.4.1
+  * fix names of static libs (Closes: #943321)
+
+ -- Tomasz Buchert <tomasz@debian.org>  Fri, 08 Nov 2019 01:09:23 +0100
+
 brotli (1.0.7-4) unstable; urgency=medium
 
   * fix FTCBFS: multiarchify python Build-Depends (Closes: #940620)

@@ -36,3 +36,8 @@ endif
 
 override_dh_missing:
 	dh_missing --fail-missing
+
+override_dh_install:
+	# drop "-static" part from static libs
+	debian/rename-static-libs.sh
+	dh_install

@@ -15,15 +15,14 @@ Build-Depends: cmake,
                python3-setuptools <!nopython>,
                python3:any <!nopython>,
                python:any <!nopython>
-Standards-Version: 4.4.0
-Rules-Requires-Root: no
+Standards-Version: 4.4.1
 Vcs-Browser: https://salsa.debian.org/debian/brotli
 Vcs-Git: https://salsa.debian.org/debian/brotli.git
 Homepage: https://github.com/google/brotli
+Rules-Requires-Root: no
 
 Package: python-brotli
 Architecture: any
-Build-Profiles: <!nopython>
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Description: lossless compression algorithm and format (Python 2 version)
  Brotli is a generic-purpose lossless compression algorithm
@@ -34,10 +33,10 @@ Description: lossless compression algorithm and format (Python 2 version)
  deflate but offers more dense compression.
  .
  This package installs a Python 2 module.
+Build-Profiles: <!nopython>
 
 Package: python3-brotli
 Architecture: any
-Build-Profiles: <!nopython>
 Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Description: lossless compression algorithm and format (Python 3 version)
  Brotli is a generic-purpose lossless compression algorithm
@@ -48,6 +47,7 @@ Description: lossless compression algorithm and format (Python 3 version)
  deflate but offers more dense compression.
  .
  This package installs a Python 3 module.
+Build-Profiles: <!nopython>
 
 Package: brotli
 Architecture: any

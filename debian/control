@@ -7,33 +7,15 @@ Build-Depends: cmake,
                debhelper (>= 12),
                debhelper-compat (= 12),
                dh-python <!nopython>,
-               libpython-dev <!nopython>,
                libpython3-all-dev <!nopython>,
-               python-dev:any <!nopython>,
-               python-setuptools <!nopython>,
                python3-all-dev:any <!nopython>,
                python3-setuptools <!nopython>,
                python3:any <!nopython>,
-               python:any <!nopython>
 Standards-Version: 4.4.1
 Vcs-Browser: https://salsa.debian.org/debian/brotli
 Vcs-Git: https://salsa.debian.org/debian/brotli.git
 Homepage: https://github.com/google/brotli
 Rules-Requires-Root: no
-
-Package: python-brotli
-Architecture: any
-Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
-Description: lossless compression algorithm and format (Python 2 version)
- Brotli is a generic-purpose lossless compression algorithm
- that compresses data using a combination of a modern variant
- of the LZ77 algorithm, Huffman coding and 2nd order context modeling,
- with a compression ratio comparable to the best currently available
- general-purpose compression methods. It is similar in speed with
- deflate but offers more dense compression.
- .
- This package installs a Python 2 module.
-Build-Profiles: <!nopython>
 
 Package: python3-brotli
 Architecture: any

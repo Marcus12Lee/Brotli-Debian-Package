@@ -1,3 +1,9 @@
+brotli (1.0.7-6) unstable; urgency=medium
+
+  * Drop python2 support; Closes: #936242
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 01 Jan 2020 18:09:12 -0500
+
 brotli (1.0.7-5) unstable; urgency=medium
 
   * bump std-ver to 4.4.1

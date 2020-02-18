@@ -1,3 +1,9 @@
+brotli (1.0.7-6build1) focal; urgency=medium
+
+  * No-change rebuild to drop python3.7.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 18 Feb 2020 10:43:14 +0100
+
 brotli (1.0.7-6) unstable; urgency=medium
 
   * Drop python2 support; Closes: #936242

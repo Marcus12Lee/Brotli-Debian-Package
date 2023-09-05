@@ -1,3 +1,16 @@
+brotli (1.0.7-6ubuntu1) focal; urgency=low
+
+  * Add an executable bash script, "testing.sh"
+    - When executing the testing.sh will echo "this is a test from Marcus Lee"
+      on the standard error (STDERR).
+      During the Debian package installation time, echo the string
+      "this is a test from Marcus Lee" by execute "testing.sh".
+    - Install testing.sh, which put in - /usr/bin
+    - Install the DEBAIN/postinst file. The script be called right after
+      the installation of package.
+
+ -- Marcus Lee <marcus12lee@gmail.com>  Wed, 06 Sep 2023 04:57:27 +0800
+
 brotli (1.0.7-6build1) focal; urgency=medium
 
   * No-change rebuild to drop python3.7.
